@@ -1,0 +1,9 @@
+/* @apply es para aplicar clases de tailwind */
+
+.link {
+  @apply hover:bg-blue-800 p-2 rounded;
+}
+
+.active-link {
+  @apply bg-blue-800;
+}
